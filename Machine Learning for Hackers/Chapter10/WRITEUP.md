@@ -2,10 +2,13 @@ Chapter 10 focuses on k-nearest neighbor classification. The chapter begins
 with an example using an example data set that can be found on the textbook's
 GitHub (https://github.com/johnmyleswhite/ML_for_Hackers). 
 
-Learning Technique: k-nearest neighbor
-Learning Type: Supervised
+### Learning Technique: 
+k-nearest neighbor
+### Learning Type: 
+Supervised
 
-Model Overview: k-nearest neighbor is a classification method that is straightforward,
+###Model Overview: 
+k-nearest neighbor is a classification method that is straightforward,
 simple, and easy to implement. Given an observation, the algorihtm attempts to 
 classify it, utilizing the classificaiton of the k-nearest points to it. In this case
 'k' is a variable term that determines how many neighbors you want the algorithm 
