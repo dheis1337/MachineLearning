@@ -30,3 +30,23 @@ use some probability theory to multiply the individual probabilities together, i
 the probability of our observation having characteristics x1, x2, and x3, given that it is of class y. If that
 is a little confusing, no worries! There is an awesome explanation of how Naive Bayes is used [here](http://stackoverflow.com/questions/10059594/a-simple-explanation-of-naive-bayes-classification).
 Just scroll about halfway down the page to the example using fruit. 
+
+### Applications
+Naive Bayes can be used for a lot of different classification tasks on data. The case study from Chapter 3
+attempts to classify email as either spam or ham (a good email). Building on this, another example could be
+classifying a property type given charateristics, such as number of bedrooms, bathrooms, square footage, lot
+size, etc. 
+
+
+### Advantages of Naive Bayes
+Here are some notable advantages of Naive Bayes classification models:
+
+1. **Simplicity:** It is one of the simplest machine learning models around. That said,
+it is known to outperform much more complex models, in both prediction accuracy and speed. The simplicity
+is a huge plus with respect to how fast the model can be implemented, which bodes well for working 
+with big data. 
+2. **Good on little data:** It will be incredibly effective, even if you have a small amount of
+data to work with!
+3. **Intuitive:** As I mentioned, even if you have a modest background in probability, a Naive Bayes
+classifier is easy to learn. 
+
