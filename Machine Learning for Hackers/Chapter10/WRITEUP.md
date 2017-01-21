@@ -1,3 +1,4 @@
+## Chapter 10
 Chapter 10 focuses on k-nearest neighbor classification. The chapter begins
 with an example using an example data set that can be found on the textbook's
 GitHub (https://github.com/johnmyleswhite/ML_for_Hackers). 
