@@ -49,4 +49,35 @@ with big data.
 data to work with!
 3. **Intuitive:** As I mentioned, even if you have a modest background in probability, a Naive Bayes
 classifier is easy to learn. 
+4. **Great for categorical data:** If you have observations that are characterized by categorical data, 
+a Naive Bayes model is right for you! This is really where Naive Bayes shines, because it allows the model 
+to remain as simple as possible. If you have numerical data, the data is assumed to be normal, which is a strech
+most of the time. 
+
+### Disadvantages of Naive Bayes
+Here are some notable disadvantages of Naive Bayes classification models:
+
+1. **Using new data:** One potential hiccup that can be presented to a Naive Bayes classifier is the introduction
+of a new class in categorical data that wasn't in the original training data. If your classifier is given an observation
+that is of class x4, but it hadn't seen class x4 during the training phase, it won't know what to do. 
+2. **Naive assumption:** This one is probably pretty obvious, but since we make the "naive" assumption of independence
+among features, it can sometimes lead to poor performance. Think about highly correlated features. 
+
+### Takeaways:
+Here are a few takeaways I learned from completing this chapter:
+
+1. **Keep it simple, stupid (K.I.S.S.):** Naive Bayes classification is a testament to this idiom, and I found 
+a great appreciation for the power of simple models. Simple models allow you to be flexible in their implementation,
+while still maintaining great predicitive power. Additionally, simple models help ensure you're not overfitting
+your data!
+2. **Building models "ground up":** While black box implementations of models are great, they aren't the best
+for learning the intuition behind a given model. Completing this chapter really helped me understand the
+nuts and bolts of Naive Bayes classification.
+3. **Troubleshooting is always necessary:** This chapter probably had the most errors in it, and I even had to 
+adjust the algortihm a little for it to work properly. No matter how advance a data scientist becomes, they 
+will **always** be required to do a little troubleshooting to implement their model correctly. 
+4. **The power of probability:** One reason this model is so simple is because it's founded in probability theory. 
+Probability is the essence of all statistics, and it's power shouldn't be overlooked when determining how to model
+data. 
+
 
