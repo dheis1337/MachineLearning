@@ -1,7 +1,8 @@
 ## Machine Learning
-This repository is dedicated to some of books I've used to teach myself machine learning. 
-Together, the books balance a theoretical and applied approach to learning machine
-learning. Below is a quick summary of the books:
+This repository is dedicated machine learning. In this repo you'll find some books
+that I've used to teach myself machine learning as well as some projects I have 
+done to practice some of the machine learning techniques I've learned. 
+
 
 ### Introduction to Statistical Learning
 This is the seminal book on machine learning. It's a freely available book online
