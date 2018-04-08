@@ -1,8 +1,3 @@
----
-title: "README.md"
-output: html_document
----
-
 This is a repo for a project I did using linear regression on real estate
 data in the city of Denver during the month of March for an independent study during
 my undergraduate studies. In this repo you'll find the dataset I used for the project, 
